@@ -1,0 +1,25 @@
+{
+    "name": "lztechbr/iugumarketplace",
+    "description": "",
+    "authors": [
+        {
+            "name": "Leonardo Zanela",
+            "email": "lztech.br@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\IuguMarketplace\\Providers\\IuguMarketplaceServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\IuguMarketplace\\": ""
+        }
+    }
+}
